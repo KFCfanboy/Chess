@@ -1,0 +1,33 @@
+.board {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+}
+.board-opening {
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+}
+.board-area {
+    width: 700px;
+    height: 600px;
+    display: inline-block;
+}
+.black-opening {
+    text-align: center;
+}
+.white-opening {
+    text-align: center;
+}
+.data {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+.board-container {
+    width: 500px;
+    height: 500px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}

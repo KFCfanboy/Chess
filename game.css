@@ -1,0 +1,13 @@
+.title {
+    margin: auto;
+    width: 50%;
+    text-align: center;  
+}
+.chess {
+    font-family: Arial;
+    font-size: 30px;
+}
+.explorer {
+    margin-top: 100px;
+    display:block;
+}
